@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+
+
+.botao {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+body{
+    background-color: rgb(64, 101, 223);
+}
+
+#visor{
+    background-color: white;
+    width: 215px;
+    height: 40px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+}
